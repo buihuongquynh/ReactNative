@@ -5,6 +5,10 @@ const styles = Stylesheet.create({
     with: 150,
     backgroudColor: 'red',
     borderWidth: 1,
+    Color: 'black',
+  },
+  alltodo : {
+    Color: 'black',
   },
 });
 export default styles;

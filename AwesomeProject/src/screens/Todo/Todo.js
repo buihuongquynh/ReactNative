@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, FlatList, TouchableOpacity, TextInput} from 'react-native';
-import styles from './Todo.styles';
+// import styles from './Todo.styles';
 import TodoItem from './TodoItem/TodoItem';
 import useTodo from './useTodo';
 const Todo = () => {
@@ -14,12 +14,12 @@ const Todo = () => {
             addTodo(name);
             setName('');
           }}>
-          <View style={styles.btnAdd}>
+          <View>
             <Text>Add to do</Text>
           </View>
         </TouchableOpacity>
         <TextInput
-          style={styles.inputText}
+         
           placeholder=""
           value={name}
           onChangeText={setName}

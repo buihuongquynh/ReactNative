@@ -24,7 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import Todo from './android/app/src/screens/Todo/Todo';
+import Todo from './src/screens/Todo/Todo';
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
